@@ -5,6 +5,12 @@
 
 
 def greet_user(name: str):
+    """This function greets a user with their real name
+
+    :param: Name: string referring to a user's name
+
+    :returns: None, just prints
+    """
     print(f"Helly {name}, how are your doing?!")
 
 
